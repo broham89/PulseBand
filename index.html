@@ -15,7 +15,9 @@
 	
 	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="css/main.css">
+	
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<link rel="stylesheet" href="js/snap.svg-min.js">
 
 </head>
 <body>
@@ -25,19 +27,39 @@
 		
 		<header>
 			<div class="wrapper">
-				<a href="#"><img src="img/logo.svg"></a>
-				<nav>	
+				<a href="#"><img src="img/logo.png"></a>
+				<nav class="links">	
 					<ul>
-						<li class="hvr-underline-reveal" data-navigation-item="1"><a href="#">Home</a></li>
-						<li class="hvr-underline-reveal" data-navigation-item="2"><a href="#">About</a></li>
-						<li class="hvr-underline-reveal" data-navigation-item="3"><a href="#">App</a></li>
-						<li class="hvr-underline-reveal" data-navigation-item="4"><a href="#">Specs</a></li>
-						<li class="bt_buy hvr-underline-reveal" data-navigation-item="5"><a href="#">Shop <i class="fa fa-shopping-cart"></i></a></li>
+						<li class="hvr-underline-reveal selected" data-navigation-item="1">Home</li>
+						<li class="hvr-underline-reveal" data-navigation-item="2">About</li>
+						<li class="hvr-underline-reveal" data-navigation-item="3">App</li>
+						<li class="hvr-underline-reveal" data-navigation-item="4">Specs</li>
+						<li class="bt_buy hvr-underline-reveal" data-navigation-item="5">Shop <i class="fa fa-shopping-cart"></i></li>
 					</ul>
 				</nav>
 			</div>
+			<!-- This is the hamburger menu -->		
+						
+			<div id="nav-icon3">
+			  <span></span>
+			  <span></span>
+			  <span></span>
+			  <span></span>
+			</div>
+			
+			<nav class="nav-flap">
+				<ul>
+					<li class="hvr-underline-reveal" data-navigation-item="1"><a href="#">Home</a></li>
+					<li class="hvr-underline-reveal" data-navigation-item="2"><a href="#">About</a></li>
+					<li class="hvr-underline-reveal" data-navigation-item="3"><a href="#">App</a></li>
+					<li class="hvr-underline-reveal" data-navigation-item="4"><a href="#">Specs</a></li>
+				</ul>
+			</nav>
+
 		</header>
 		
+
+
 		<main>
 			
 			
@@ -51,18 +73,16 @@
 						Buy Now $299
 					</a>
 					
-					<div class="line">
-						<p>Learn More</p>
+				</div>
+				<div class="parallax_container">
+					<div class="parallax">
+						
 					</div>
-				</div>
 			</div>
-
+			
+			</div>
 		</main>	
-			<div class="parallax_container">
-				<div class="parallax">
-					
-				</div>
-			</div>
+			
 	</div>
 	
 	<section class="about content-2">
@@ -114,11 +134,15 @@
 						<h3>Uncover unusual data points</h3>
 						<p>If you wake up with abnormally high blood pressure, Pulseband will inform you right away, so you can get to the root cause.</p>
 					</li>
-				<h3>Relevant trends</h3>
-				<p>If your heart patterns are changing, Pulseband will help analyze what's causeing the change.</p>
-
-				<h3>Tracking your progress</h3>
-				<p>Your increased activity levels and inproved sleep quality will strengthen your heart: Pulseband will show you exactly how much.</p></ul>
+					<li>
+						<h3>Relevant trends</h3>
+						<p>If your heart patterns are changing, Pulseband will help analyze what's causeing the change.</p>
+					</li>
+					<li>
+						<h3>Tracking your progress</h3>
+						<p>Your increased activity levels and inproved sleep quality will strengthen your heart: Pulseband will show you exactly how much.</p>
+					</li>
+							
 				</ul>
 			</div>
 		</div>
@@ -132,25 +156,25 @@
 			<ul>
 				<li class="purple_container">
 					<div>
-						<img src="img/ge_pulseband.png">
+						<img src="img/ge_pulseband_purple.png">
 						<h2>Purple Edition</h2>
-						<button>Buy Now $299</button>
+						<a href="#" class="hvr-back-pulse">Buy Now $299</a>
 					</div>	
 				</li>
 
 				<li class="black_container">
 					<div>	
-						<img src="img/ge_pulseband.png">
+						<img src="img/ge_pulseband_black.png">
 						<h2>Black Edition</h2>
-						<button>Buy Now $299</button>
+						<a href="#" class="hvr-back-pulse">Buy Now $299</a>
 					</div>
 				</li>
 
 				<li class="green_container">
 					<div>
-						<img src="img/ge_pulseband.png">
+						<img src="img/ge_pulseband_green.png">
 						<h2>Green Edition</h2>
-						<button>Buy Now $299</button>
+						<a href="#" class="hvr-back-pulse">Buy Now $299</a>
 					</div>
 				</li>
 			</ul>
@@ -200,9 +224,9 @@
 			<div class="social_icons">
 				<h4>Like us on social media</h4>
 				<ul>
-					<a href="#"><li class="hvr-radial-in"><i class="fa fa-facebook"></i></li></a>
-					<a href="#"><li class="hvr-radial-in"><i class="fa fa-twitter"></i></li></a>
-					<a href="#"><li class="hvr-radial-in"><i class="fa fa-google"></i></li></a>
+					<a href="https://www.facebook.com/pulsebandfanpage?ref=br_rs"><li class="hvr-radial-in"><i class="fa fa-facebook"></i></li></a>
+					<a href="https://twitter.com/pulsetune"><li class="hvr-radial-in"><i class="fa fa-twitter"></i></li></a>
+					<a href="https://plus.google.com/107092918852637616083/posts"><li class="hvr-radial-in"><i class="fa fa-google"></i></li></a>
 				</ul>
 			</div>
 
